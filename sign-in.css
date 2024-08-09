@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+}
+.brand-logo{
+    margin-top: 20px;
+}
+.auth-container{
+    max-width:350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.auth-container h1,
+.auth-container h4,
+.auth-container h5{
+    font-weight:550;
+}
+.auth-title{
+    font-size: 28px;
+    font-weight: 400;
+}
+.input-label{
+    margin-top: 20px;
+}
+.auth-container input{
+    width: 100%;
+    height: 31px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.auth-container input:focus{
+    outline: 3px solid #c2f2ff;
+}
+.auth-container button{
+    width: 100%;
+    height: 31px;
+    margin: 15px 0px;
+    background: #FFD814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.auth-container button:hover{
+    background: #ebc712;
+}
+.auth-terms{
+    font-size: 12px;
+}
+.auth-container p span{
+    color: #0066c0;
+}
+.auth-help{
+    font-size: 13px;
+    margin: 20px 0px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #d4d4d4;
+}
+.auth-container h4{
+    margin: 15px 0px;
+    font-size: 13px;
+}
+.business-link{
+    font-size: 13px;
+}
+.signup-text-section{
+    width: 350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.signup-text-section hr{
+    width: 110px;
+}
+.signup-button{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+.signup-button:hover{
+    background-color: #f1f1f1;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 20px;
+    padding: 20px 0px;
+    background: linear-gradient(to bottom, #f4f4f4, #ffffff);
+    border-top: 2px solid #ededed;
+    font-size: 12px;
+    position: relative;
+    clear: both; 
+}
+
+footer .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+footer .footer-nav a{
+    text-decoration: none;
+    color: #0066c0;
+}
+a,button{
+    cursor: pointer;
+}
